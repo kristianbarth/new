@@ -1,0 +1,78 @@
+.myTasks-wrapper {
+  margin: 1.8302vw;
+  margin-bottom: 0;
+  position: relative;
+  height: calc(99% - 1.83vw);
+
+  .myTasks-page-title {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.7569vw;
+      line-height: 2.1229vw;
+      margin-bottom: 1.8301vw;
+      color: #444444;
+  }
+
+  .myTasks-page-comment{
+    font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.3569vw;
+      line-height: 2.1229vw;
+      margin-bottom: 1.8301vw;
+      color: #444444;
+  }
+
+  .myTasks-page-header {
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+
+
+      .right {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-right: 1.03206vw;
+
+            .myTasks-dropdown {
+                margin-right: 1.03206vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            
+            }
+          
+
+          .user-dropdown {
+              .icon {
+                  margin-right: 0.5124vw;
+              }
+          }
+      }
+  }
+
+  .myTasks-section {
+      height: 54.95vh;
+      width: 73.39vw;
+      margin-top: 3.660vw;
+      overflow: scroll;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      gap: 0.43847vw;
+
+      &::-webkit-scrollbar {
+          background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+          background: #949494;
+          border-radius: 1.464vw;
+          border: 6px solid white
+      }
+  }
+
+}
